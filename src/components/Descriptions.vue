@@ -1,10 +1,14 @@
 <template>
   <div class="container">
     <div class="columns is-marginless is-vcentered">
-      <div class="column has-text-centered-mobile has-text-left-desktop">
+      <div
+        class="column has-text-centered-mobile has-text-left-desktop"
+        data-aos="fade-right"
+        data-aos-once="true"
+      >
         <img src="/images/ui.png" />
       </div>
-      <div class="column description">
+      <div class="column description" data-aos="fade" data-aos-once="true">
         <div class="rounded-icon-wrapper">
           <img src="/images/icon_1.png" />
         </div>
@@ -17,17 +21,21 @@
           automatically to all your devices.
         </p>
         <p class="has-text-centered-mobile">
-          <a href="#" class="button is-purple has-shadown is-rounded">
+          <a href="#" class="button is-purple has-shadow is-rounded">
             Buy now
           </a>
         </p>
       </div>
     </div>
     <div class="columns is-marginless is-vcentered reverse-desktop">
-      <div class="column has-text-centered-mobile has-text-left-desktop">
+      <div
+        class="column has-text-centered-mobile has-text-left-desktop"
+        data-aos="fade-left"
+        data-aos-once="true"
+      >
         <img src="/images/device.png" />
       </div>
-      <div class="column description">
+      <div class="column description" data-aos="fade" data-aos-once="true">
         <div class="rounded-icon-wrapper">
           <img src="/images/icon_1.png" />
         </div>
@@ -40,7 +48,7 @@
           automatically to all your devices.
         </p>
         <p class="has-text-centered-mobile">
-          <a href="#" class="button is-purple has-shadown is-rounded">
+          <a href="#" class="button is-purple has-shadow is-rounded">
             Buy now
           </a>
         </p>

@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="columns is-marginless is-vcentered">
-      <div class="column is-one-third">
+      <div class="column is-one-third" data-aos="fade" data-aos-once="true">
         <h3 class="title is-3 has-text-centered-mobile">
           Simple pricing.
         </h3>
@@ -32,6 +32,9 @@
               v-for="(pricing, index) in pricings"
               :key="index"
               class="column pricing"
+              data-aos="fade-left"
+              data-aos-once="true"
+              :data-aos-delay="index * 250"
             >
               <div class="has-text-centered">
                 <h4 class="title is-4">
@@ -45,7 +48,7 @@
                     <b>{{ feature }}</b>
                   </li>
                 </ul>
-                <a href="#" class="button is-rounded is-purple has-shadown">
+                <a href="#" class="button is-rounded is-purple has-shadow">
                   Sign Up
                 </a>
               </div>
@@ -77,7 +80,7 @@ export default {
           name: 'Premium',
           features: [
             'Better permissions',
-            'All intigration',
+            'All integration',
             'Unlimited Access',
             '30,000 subscribers',
             'Custom domain',

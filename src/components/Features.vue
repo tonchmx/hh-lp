@@ -9,6 +9,9 @@
           v-for="(feature, index) in features"
           :key="index"
           class="column is-12-mobile is-6-tablet is-3-desktop has-text-centered"
+          data-aos="fade"
+          data-aos-once="true"
+          :data-aos-delay="index * 150"
         >
           <img :src="feature.image" />
           <p class="has-text-centered has-text-white">

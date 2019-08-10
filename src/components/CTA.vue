@@ -1,7 +1,10 @@
 <template>
   <div class="container">
     <div class="columns is-centered is-marginless">
-      <div class="column is-half-desktop">
+      <div
+        class="column is-half-desktop"
+        data-aos="slide-up"
+        data-aos-once="true">
         <h2 class="title is-2 has-text-centered">
           Time is Money. Stop Wasting it.
         </h2>
@@ -14,7 +17,7 @@
         <p class="has-text-centered">
           <a
             href="#"
-            class="button is-rounded is-large is-purple has-shadown has-text-centered"
+            class="button is-rounded is-large is-purple has-shadow has-text-centered"
           >
             Suscribe Now
           </a>

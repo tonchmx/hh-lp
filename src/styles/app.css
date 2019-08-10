@@ -7,9 +7,16 @@
   background-color: #6C63FF;
   color: white;
   border-color: #6C63FF;
+  transition: filter 300ms ease;
 }
 
-.button.is-purple.has-shadown {
+.button.is-purple:hover {
+  filter: brightness(90%);
+  background-color: #6C63FF;
+  color: white;
+}
+
+.button.is-purple.has-shadow {
   -webkit-box-shadow: 0px 11px 12px 0px rgba(108,99,255,0.51);
   -moz-box-shadow: 0px 11px 12px 0px rgba(108,99,255,0.51);
   box-shadow: 0px 11px 12px 0px rgba(108,99,255,0.51);
@@ -19,6 +26,7 @@
   background-color: #414056;
   color: white;
   border-color: #414056;
+  transition: filter 300ms ease;
 }
 
 .button.is-black:hover{

@@ -1,13 +1,13 @@
 <template>
   <div class="container">
     <div class="columns is-marginless is-vcentered">
-      <div class="column has-text-centered-mobile">
+      <div class="column has-text-centered-mobile" data-aos="fade" data-aos-once="true">
         <h1 class="title has-text-white">
           A Life in Design
         </h1>
         <p class="has-text-white is-size-5">
           You can have an art experience in front of a Rembrandt, or in front of
-          a pice of graphic design.
+          a piece of graphic design.
         </p>
         <a
           href="#"
@@ -16,7 +16,11 @@
           Get Started Now
         </a>
       </div>
-      <div class="column has-text-centered has-text-right-desktop">
+      <div
+        class="column has-text-centered has-text-right-desktop"
+        data-aos="fade-up"
+        data-aos-once="true"
+      >
         <img src="/images/device.png" />
       </div>
     </div>
@@ -31,6 +35,7 @@ export default {};
 .container {
   padding-top: 4rem;
   z-index: 2;
+  min-height: 500px;
 }
 
 h1 {
