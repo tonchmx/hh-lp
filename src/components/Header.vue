@@ -48,6 +48,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+  header {
+    z-index: 2;
+  }
   nav {
     background-color: transparent;
 

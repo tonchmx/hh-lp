@@ -39,7 +39,3 @@
     flex-direction: row-reverse;
   }
 }
-
-.headerHeroWrapperBackground {
-  background-image: linear-gradient(180deg, #2E87EC 0%, #BCD3F2 100%);
-}

@@ -13,7 +13,7 @@
           Get Started Now
         </a>
       </div>
-      <div class="column has-text-centered">
+      <div class="column has-text-centered has-text-right-desktop">
         <img src="/images/device.png" />
       </div>
     </div>
@@ -27,6 +27,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+  .container {
+    padding-top: 4rem;
+    z-index: 2;
+  }
+
   h1 {
     font-size: 3.75rem;
   }
