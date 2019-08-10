@@ -8,17 +8,19 @@
         <div class="rounded-icon-wrapper">
           <img src="/images/icon_1.png" >
         </div>
-        <h3 class="title is-3">
+        <h3 class="title is-3 has-text-centered-mobile">
           Take your docs anywhere
         </h3>
-        <p>
+        <p class="has-text-centered-mobile">
           Take your docks anywhere. Save files on your computer then acces them
           on your phone from the road.Everything you keep in Dropbox is synced
           automatically to all your devices.
         </p>
-        <a href="#" class="button is-purple has-shadown is-rounded">
-          Buy now
-        </a>
+        <p class="has-text-centered-mobile">
+          <a href="#" class="button is-purple has-shadown is-rounded">
+            Buy now
+          </a>
+        </p>
       </div>
     </div>
     <div class="columns is-marginless is-vcentered reverse-desktop">
@@ -29,17 +31,19 @@
         <div class="rounded-icon-wrapper">
           <img src="/images/icon_1.png" >
         </div>
-        <h3 class="title is-3">
+        <h3 class="title is-3 has-text-centered-mobile">
           Work on slides together
         </h3>
-        <p>
+        <p class="has-text-centered-mobile">
           Take your docks anywhere. Save files on your computer then acces them
           on your phone from the road.Everything you keep in Dropbox is synced
           automatically to all your devices.
         </p>
-        <a href="#" class="button is-purple has-shadown is-rounded">
-          Buy now
-        </a>
+        <p class="has-text-centered-mobile">
+          <a href="#" class="button is-purple has-shadown is-rounded">
+            Buy now
+          </a>
+        </p>
       </div>
     </div>
   </div>
@@ -81,6 +85,11 @@ export default {
         -webkit-box-shadow: 0 9px 10px 0 rgba(0,0,0,0.06);
         -moz-box-shadow: 0 9px 10px 0 rgba(0,0,0,0.06);
         box-shadow: 0 9px 10px 0 rgba(0,0,0,0.06);
+
+        @media screen and (max-width: 768px){
+          margin-left: auto;
+          margin-right: auto;
+        }
       }
 
       a {

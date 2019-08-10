@@ -2,10 +2,10 @@
   <div class="container">
     <div class="columns is-marginless is-vcentered">
       <div class="column is-one-third">
-        <h3 class="title is-3">
+        <h3 class="title is-3 has-text-centered-mobile">
           Simple pricing.
         </h3>
-        <p>
+        <p class="has-text-centered-mobile">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur, ratione. Sunt qui dolorum id earum aspernatur aperiam sint perspiciatis? Delectus expedita nobis minima! Quidem, dolore commodi? Voluptate consectetur odit odio.
         </p>
         <div class="comment columns is-mobile is-vcentered">
