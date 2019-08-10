@@ -62,10 +62,6 @@ export default {
 
     .reverse-desktop {
       padding-top: 5rem;
-      @media screen and (min-width: 1024px){
-        padding-top: 0;
-        flex-direction: row-reverse;
-      }
     }
 
     .description {

@@ -14,3 +14,32 @@
   -moz-box-shadow: 0px 11px 12px 0px rgba(108,99,255,0.51);
   box-shadow: 0px 11px 12px 0px rgba(108,99,255,0.51);
 }
+
+.button.is-black {
+  background-color: #414056;
+  color: white;
+  border-color: #414056;
+}
+
+.button.is-black:hover{
+  filter: brightness(90%);
+  color: white;
+  background-color: #414056;
+}
+
+.button.is-black.has-shadow {
+  -webkit-box-shadow: 0 13px 20px 0 #5189C9;
+  -moz-box-shadow: 0 13px 20px 0 #5189C9;
+  box-shadow: 0 13px 20px 0 #5189C9;
+}
+
+@media screen and (min-width: 1024px){
+  .reverse-desktop {
+    padding-top: 0;
+    flex-direction: row-reverse;
+  }
+}
+
+.headerHeroWrapperBackground {
+  background-image: linear-gradient(180deg, #2E87EC 0%, #BCD3F2 100%);
+}
