@@ -12,7 +12,10 @@
           doloremque?
         </p>
         <p class="has-text-centered">
-          <a href="#" class="button is-rounded is-large is-purple has-shadown has-text-centered">
+          <a
+            href="#"
+            class="button is-rounded is-large is-purple has-shadown has-text-centered"
+          >
             Suscribe Now
           </a>
         </p>
@@ -22,17 +25,16 @@
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style lang="scss" scoped>
-  .container {
-    margin-bottom: 4rem;
-  }
+.container {
+  margin-bottom: 4rem;
+}
 
-  h2, p {
-    margin-bottom: 2rem;
-  }
+h2,
+p {
+  margin-bottom: 2rem;
+}
 </style>

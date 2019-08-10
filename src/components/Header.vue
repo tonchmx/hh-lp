@@ -44,26 +44,24 @@ export default {
       targetWrapper.classList.toggle('is-active');
     }
   }
-}
+};
 </script>
 
 <style lang="scss" scoped>
-  header {
-    z-index: 2;
-  }
-  nav {
+header {
+  z-index: 2;
+}
+nav {
+  background-color: transparent;
+
+  .navbar-item {
     background-color: transparent;
-
-    .navbar-item {
-      background-color: transparent;
-    }
-
-    .navbar-menu.is-active {
-      background-color: transparent;
-      border-top: 1px solid rgba(255, 255, 255, 0.1);
-      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    }
   }
+
+  .navbar-menu.is-active {
+    background-color: transparent;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+}
 </style>
-
-

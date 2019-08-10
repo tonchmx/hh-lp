@@ -6,7 +6,8 @@
       </h3>
       <div class="columns is-multiline is-mobile is-marginless">
         <div
-          v-for="(feature, index) in features" :key="index"
+          v-for="(feature, index) in features"
+          :key="index"
           class="column is-12-mobile is-6-tablet is-3-desktop has-text-centered"
         >
           <img :src="feature.image" />
@@ -50,37 +51,37 @@ export default {
           title: 'Job applications',
           text: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit,
             maiores rem a nihil, sequi possimus culpa natus eos inventore fugit.`
-        },
+        }
       ]
-    }
+    };
   }
-}
+};
 </script>
 
 <style lang="scss" scoped>
-  .bg-blue {
-    background-color: #509AEE;
+.bg-blue {
+  background-color: #509aee;
 
-    @media screen and (min-width: 768px) {
-      background: #509AEE url('/images/map_bg.png') no-repeat center center;
+  @media screen and (min-width: 768px) {
+    background: #509aee url('/images/map_bg.png') no-repeat center center;
+  }
+
+  .container {
+    padding-top: 6rem;
+    padding-bottom: 8rem;
+    margin-bottom: 8rem;
+
+    h3 {
+      margin-bottom: 6rem;
     }
 
-    .container {
-      padding-top: 6rem;
-      padding-bottom: 8rem;
-      margin-bottom: 8rem;
+    img {
+      margin-bottom: 1rem;
+    }
 
-      h3 {
-        margin-bottom: 6rem;
-      }
-
-      img {
-        margin-bottom: 1rem;
-      }
-
-      p {
-        padding: 0 2rem;
-      }
+    p {
+      padding: 0 2rem;
     }
   }
+}
 </style>

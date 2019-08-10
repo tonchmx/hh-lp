@@ -6,10 +6,13 @@
           A Life in Design
         </h1>
         <p class="has-text-white is-size-5">
-          You can have an art experience in front of a Rembrandt, or in front
-          of a pice of graphic design.
+          You can have an art experience in front of a Rembrandt, or in front of
+          a pice of graphic design.
         </p>
-        <a href="#" class="button is-rounded is-large is-black has-shadow has-text-centered">
+        <a
+          href="#"
+          class="button is-rounded is-large is-black has-shadow has-text-centered"
+        >
           Get Started Now
         </a>
       </div>
@@ -21,25 +24,23 @@
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style lang="scss" scoped>
-  .container {
-    padding-top: 4rem;
-    z-index: 2;
-  }
+.container {
+  padding-top: 4rem;
+  z-index: 2;
+}
 
-  h1 {
-    font-size: 3.75rem;
-  }
+h1 {
+  font-size: 3.75rem;
+}
 
-  .button {
-    margin-top: 3rem;
-    @media screen and (max-width: 767px){
-      padding: 2rem 4rem !important;
-    }
+.button {
+  margin-top: 3rem;
+  @media screen and (max-width: 767px) {
+    padding: 2rem 4rem !important;
   }
+}
 </style>

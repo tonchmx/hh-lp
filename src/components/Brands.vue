@@ -21,20 +21,20 @@ export default {
         { name: 'townwizard', src: '/images/brand_3.png' },
         { name: 'erodr', src: '/images/brand_4.png' }
       ]
-    }
+    };
   }
-}
+};
 </script>
 
 <style lang="scss" scoped>
-  .container {
-    margin-bottom: 4rem;
+.container {
+  margin-bottom: 4rem;
+}
+.brands {
+  text-align: center;
+  margin-top: 1rem;
+  li {
+    display: inline-block;
   }
-  .brands {
-    text-align: center;
-    margin-top: 1rem;
-    li {
-      display: inline-block;
-    }
-  }
+}
 </style>
